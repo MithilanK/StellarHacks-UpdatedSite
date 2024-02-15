@@ -1,0 +1,6 @@
+#a316e2 - Purple
+#3664c8 - Light Blue
+#3d29ee - Strong Blue
+#860485 - Magenta
+#424242 - Gray
+#040404 - Black

@@ -1,0 +1,212 @@
+
+/* mobile */
+@media (max-width:750px) {
+    .introContainer {
+        margin: 0;
+        padding: 0;
+        background-image: linear-gradient(#3664c8, #040404);
+        height: 100vh;
+        width: 100%;
+    }
+
+    /* nav bar */
+
+    .navBar {   
+        visibility: hidden;
+        margin: 0;
+    
+        background-color: rgba(4, 4, 4, .45);
+        width: 100%;
+        height: 8vh;
+    
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-style: italic;
+        font-size: 1.6vmin;
+        color:white;
+    
+        display: inline-block;
+        vertical-align: middle;
+    
+        line-height: 7.5vh;
+        border-left: 5vmin;
+        justify-content: center;
+    }
+
+    .navBarItem {
+        padding-right: 2vmin;
+        padding-left: 1vmin;
+    
+        animation: fadeIn 1.5s forwards; /* Change duration as needed */
+        animation-timing-function: ease-in-out;
+        visibility: hidden;
+        text-decoration: none;
+        color: white;
+    }
+    .navBarLogo {
+        justify-content: center;
+        padding: 2vmin;
+        display: inline-block;
+        vertical-align: middle;
+
+        margin-left: auto;
+        margin-right: auto;
+        width: 5vmin;
+        padding-left: 47.5vw;
+    
+        animation: desaturate 1.5s forwards; /* Change duration as needed */
+        animation-timing-function: ease-in-out;
+    
+    }
+
+    /* main  title */
+    .mainTitle {
+    
+    
+        margin-left: 14.5vw;
+        margin-right: 14.5vw;
+        margin-top: 5vh;
+    
+        width: 70vmin;
+
+    
+        text-align: center;
+    
+    }
+    
+    .mainTitleLogoText {
+        
+        width: 65vmin;
+    
+        display: flex;
+        align-items: center;
+        padding-left: 1.5vw;
+        padding-bottom: 5vh;
+    
+        animation: fadeIn 1.5s forwards; /* Change duration as needed */
+        animation-timing-function: ease-in-out;
+    }
+    
+    .mainTitleLogoImage {
+        
+
+        width: 55vmin;
+        margin-left: 7.5;
+        margin-right: 7.5;
+        
+        animation: desaturate 1.5s forwards; /* Change duration as needed */
+        animation-timing-function: ease-in-out;
+    }
+}
+
+/* Desktop Screen*/
+@media (min-width: 750px) {
+    .introContainer {
+        background-image: linear-gradient(#3664c8, #040404);
+        height: 100vh;
+        margin: 0;
+        padding: 0;
+    }
+    
+    /* nav bar */
+    
+    .navBar {
+    
+        background-color: rgba(4, 4, 4, .45);
+        width: 100%;
+        height: 8vhX;
+    
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-style: italic;
+        font-size: 1.6vmin;
+        color:white;
+    
+        display: inline-block;
+        vertical-align: middle;
+    
+        line-height: 7.5vh;
+        border-left: 5vmin;
+    }
+    
+    .navBarItem {
+        text-decoration: none;
+        color: white;
+        padding-right: 2vmin;
+        padding-left: 1vmin;
+    
+        animation: fadeIn 1.5s forwards; /* Change duration as needed */
+        animation-timing-function: ease-in-out;
+    }
+    
+    .navBarItem:hover{
+        color:#424242;
+    }
+    
+    .navBarLogo {
+        padding: 2vmin;
+        display: inline-block;
+        vertical-align: middle;
+        width: 4.5vmin;
+    
+        animation: desaturate 1.5s forwards; /* Change duration as needed */
+        animation-timing-function: ease-in-out;
+    
+    }
+    
+    /* main title */
+    
+    .mainTitle {
+        
+        margin-top: 20vh;
+    
+        width: 100vw;
+    
+    
+        display: flex;
+        align-items: center;
+        
+        
+        flex-direction: row;
+         justify-content: center; 
+         align-items: center
+    
+    }
+    .mainTitleLogoText {
+        
+        width: 40vmin;
+    
+        display: flex;
+        align-items: center;
+        margin-right: 5vw;
+    
+        animation: fadeIn 1.5s forwards; /* Change duration as needed */
+        animation-timing-function: ease-in-out;
+    }
+    
+    .mainTitleLogoImage {
+        width: 45vmin;
+    
+        display: flex;
+        
+        animation: desaturate 1.5s forwards; /* Change duration as needed */
+        animation-timing-function: ease-in-out;
+    }
+}
+
+
+@keyframes desaturate {
+    0% {
+        filter: grayscale(1); /* Start with no desaturation */
+    }
+    100% {
+        filter: grayscale(0); /* End with full desaturation */
+    }
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+
+
