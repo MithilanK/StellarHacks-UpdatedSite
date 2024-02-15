@@ -1,6 +1,134 @@
+/* mobile */
 @media (max-width:750px) {
+    .aboutContainer {
+        width: 100vw;
+        background-image: linear-gradient(#040404, #424242);
+        display: inline-block;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 2vh;
+    }
+    .aboutTitle {
+        text-align: center;
+        font-family: "Lexend", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 7vmin;
+        color:white;
+        padding-top: 2vh;
 
+        
+    }
+
+    .whatDiv {
+
+        border-radius: 1vmin;
+        background-color:#3664c8;
+        width: 55vmin;
+        margin-top: 2vh;
+        padding-left: 25px;
+        padding-right: 25px;
+        padding-top: 1px;
+        padding-bottom: 25px;
+    }
+
+    h1.whatDivText {
+        font-family: "Lexend", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 6vmin;
+        color:white
+    }
+    p.whatDivText {
+        font-family: "Lexend", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 4vmin;
+        color:white 
+    }
+
+    .whatFirstColumn {
+        width: 60vmin;
+        margin-top: 2vh;
+        display: inline-block;
+    }
+    .whatSecondColumn {
+        width: 60vmin;
+        margin-top: 2vh;
+        display: inline-block;
+    }
 }
+
+/* desktop */
 @media (min-width:750px) {
-    
+    .aboutContainer {
+        width: 100vw;
+        height: 100vh;
+        background-image: linear-gradient(#040404, #424242);
+        float: left;
+        clear: none; 
+    }
+    .aboutTitle {
+        width: 100%;
+        text-align: left;
+        font-family: "Lexend", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 7vmin;
+        color:white;
+        padding-left: 6vmin;
+        padding-top: 2vh;
+
+        
+    }
+
+    .whatDiv {
+
+        border-radius: 1vmin;
+        background-color:#3664c8;
+        width: 55vmin;
+        margin-top: 2vh;
+        padding-left: 25px;
+        padding-right: 25px;
+        padding-top: 1px;
+        padding-bottom: 25px;
+    }
+
+    h1.whatDivText {
+        font-family: "Lexend", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 4vmin;
+        color:white
+    }
+    p.whatDivText {
+        font-family: "Lexend", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 2vmin;
+        color:white 
+    }
+
+    .whatFirstColumn {
+        width: 60vmin;
+        margin-top: 2vh;
+        margin-left: 5vmin;
+        display: inline-block;
+        float: left;
+    }
+    .whatSecondColumn {
+        width: 60vmin;
+        margin-left: 5vmin;
+
+        display: inline-block;
+        float: center;
+        margin-top: 1.5vmin;
+        margin-right: 1vmin;
+    }
 }
